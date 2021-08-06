@@ -1,19 +1,3 @@
-// step 1
-// const question = document.querySelector('section')
-
-// question.addEventListener('click', () => {
-//   question.classList.toggle('opened')
-// })
-
-// step 2
-// const questions = document.querySelectorAll('section')
-// questions.forEach(question => {
-//   question.addEventListener('click', () => {
-//     question.classList.toggle('opened')
-//   })
-// })
-
-// step 3
 const questions = document.querySelectorAll('section')
 questions.forEach(question => {
   const opener = question.querySelector('h3')
